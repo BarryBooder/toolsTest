@@ -29,7 +29,7 @@ const Sidebar: React.FC<SidebarProps> = ({
 }) => {
   return (
     <aside
-      className={`fixed inset-y-0 left-0 z-50 w-full lg:w-64 bg-white border-r transform ${
+      className={`fixed lg:static inset-y-0 left-0 z-50 w-full lg:w-64 bg-white border-r transform ${
         isOpen ? 'translate-x-0' : '-translate-x-full'
       } lg:translate-x-0 transition-transform duration-200 ease-in-out ${
         isOpen ? 'top-[57px] lg:top-0' : 'top-0'
